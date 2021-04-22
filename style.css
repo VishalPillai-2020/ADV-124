@@ -1,0 +1,38 @@
+body{
+    background: linear-gradient(to bottom, rgba(156, 72, 97, 0.788) ,lavender  ,rgb(29, 143, 219) );
+}
+.header{
+    background-color:rgba(128, 128, 128, 0.788);
+    font-size:23px;
+    width:100%;
+    margin:0;
+    box-shadow: 5px 5px 2px black;
+    color:rgb(0, 0, 0);
+}
+.note{
+    font-size:15px;
+    color:lightgoldenrodyellow;
+    overflow:hidden;
+}
+#select{
+    font-size:16px;
+}
+#footer{
+    font-size:18px;
+    background-color:rgba(128, 128, 128, 0.541);
+    position:fixed;
+    bottom:0;
+    text-align:center;
+    width:100%;
+    line-height:2.5;
+}
+canvas{
+    border:3px inset grey;
+    border-radius:10px;
+    box-shadow: 5px 5px 2px black;
+}
+video{
+    border:3px inset grey;
+    border-radius:10px;
+    box-shadow: 5px 5px 2px black;
+}
