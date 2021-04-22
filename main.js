@@ -27,7 +27,7 @@ function getPoses(results) {
         console.log("nose X = " + noseX + " Nose Y = " + noseY);
         leftWristX = results[0].pose.leftWrist.x;
         rightWristX = results[0].pose.rightWrist.x;
-        difference = Math.floor(leftWristx - rightWristX);
+        difference = Math.floor(leftWristX - rightWristX);
         console.log('left wrist x = ' + leftWristX + 'right wrist x = ' + rightWristX + 'Difference' + difference);
     }
 }
