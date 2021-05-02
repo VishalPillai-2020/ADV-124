@@ -54,13 +54,13 @@ function draw() {
         X1 = noseX - difference_1;
         X3 = noseX + difference_1;
         y = noseY + difference_1;
-        triangle(X1, y, noseX, noseY, X, y);
+        triangle(X1, y, noseX, noseY, X3, y);
     }
     if(shape=="Flower"){
         noStroke();
         translate(noseX, noseY);
         for(var i=0; i < 10; i++){
-            ellipse(0,20,difference,20);
+            ellipse(0,20,20,difference);
             rotate(PI / 5);
         }
     }
