@@ -35,7 +35,7 @@ function getPoses(results) {
 function draw() {
     background("grey");
     shape = document.getElementById("select").value;
-    document.getElementById("shape_name").innerHTML = "Size of the " + shape + " is" + difference + "px";
+    document.getElementById("shape_name").innerHTML = "Size of the " + shape + " is" + difference + " px";
     stroke("black");
     fill("white");
     if (shape == "Square") {
